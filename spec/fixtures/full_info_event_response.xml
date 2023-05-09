@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes"?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:ingv="http://webservices.ingv.it/fdsnws/event/1">
+  <eventParameters publicID="smi:webservices.ingv.it/fdsnws/event/1/query">
+    <event publicID="smi:webservices.ingv.it/fdsnws/event/1/query?eventId=34726001">
+      <type>earthquake</type>
+      <description>
+        <type>region name</type>
+        <text>6 km W Sefro (MC)</text>
+      </description>
+      <preferredMagnitudeID>smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=125130661</preferredMagnitudeID>
+      <preferredOriginID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116521471</preferredOriginID>
+      <creationInfo>
+        <agencyID>INGV</agencyID>
+        <author>hew10_mole#MOD_EQASSEMBLE</author>
+        <creationTime>2023-04-19T14:21:34</creationTime>
+        <ingv:id_locator>498508</ingv:id_locator>
+      </creationInfo>
+      <origin publicID="smi:webservices.ingv.it/fdsnws/event/1/query?originId=116521471">
+        <evaluationMode>manual</evaluationMode>
+        <type>hypocenter</type>
+        <time>
+          <value>2023-04-19T14:21:13.180000</value>
+          <uncertainty>0.06</uncertainty>
+        </time>
+        <latitude>
+          <value>43.1498</value>
+          <uncertainty>0.0027</uncertainty>
+        </latitude>
+        <longitude>
+          <value>12.8772</value>
+          <uncertainty>0.0049</uncertainty>
+        </longitude>
+        <depth>
+          <value>22100</value>
+          <uncertainty>500</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <originUncertainty>
+          <preferredDescription>uncertainty ellipse</preferredDescription>
+          <horizontalUncertainty>310.0</horizontalUncertainty>
+          <minHorizontalUncertainty>278</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>309</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>229</azimuthMaxHorizontalUncertainty>
+          <confidenceLevel>68</confidenceLevel>
+        </originUncertainty>
+        <quality>
+          <azimuthalGap>88</azimuthalGap>
+          <associatedPhaseCount>20</associatedPhaseCount>
+          <usedPhaseCount>20</usedPhaseCount>
+          <standardError>0.12</standardError>
+          <minimumDistance>0.07824</minimumDistance>
+          <maximumDistance>0.40380</maximumDistance>
+          <associatedStationCount>12</associatedStationCount>
+          <usedStationCount>12</usedStationCount>
+        </quality>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=1</methodID>
+        <earthModelID>smi:webservices.ingv.it/fdsnws/event/1/query?earthModelId=1</earthModelID>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>SURVEY-INGV</author>
+          <version>100</version>
+          <creationTime>2023-04-19T14:38:42</creationTime>
+        </creationInfo>
+      </origin>
+      <magnitude publicID="smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=125130661">
+        <stationCount>12</stationCount>
+        <originID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116521471</originID>
+        <type>ML</type>
+        <mag>
+          <value>1.1</value>
+          <uncertainty>0.2</uncertainty>
+        </mag>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=1</methodID>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>Sala Sismica INGV-Roma</author>
+          <creationTime>2023-04-19T14:38:42</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="smi:webservices.ingv.it/fdsnws/event/1/query?eventId=34726341">
+      <type>earthquake</type>
+      <description>
+        <type>region name</type>
+        <text>5 km NW Bagno di Romagna (FC)</text>
+      </description>
+      <preferredMagnitudeID>smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=125131441</preferredMagnitudeID>
+      <preferredOriginID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116522181</preferredOriginID>
+      <creationInfo>
+        <agencyID>INGV</agencyID>
+        <author>hew10_mole#MOD_EQASSEMBLE</author>
+        <creationTime>2023-04-19T14:52:08</creationTime>
+        <ingv:id_locator>498515</ingv:id_locator>
+      </creationInfo>
+      <origin publicID="smi:webservices.ingv.it/fdsnws/event/1/query?originId=116522181">
+        <evaluationMode>manual</evaluationMode>
+        <type>hypocenter</type>
+        <time>
+          <value>2023-04-19T14:50:48.640000</value>
+          <uncertainty>0.13</uncertainty>
+        </time>
+        <latitude>
+          <value>43.8972</value>
+          <uncertainty>0.0081</uncertainty>
+        </latitude>
+        <longitude>
+          <value>11.9382</value>
+          <uncertainty>0.0137</uncertainty>
+        </longitude>
+        <depth>
+          <value>14100</value>
+          <uncertainty>2000</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <originUncertainty>
+          <preferredDescription>uncertainty ellipse</preferredDescription>
+          <horizontalUncertainty>1200.0</horizontalUncertainty>
+          <minHorizontalUncertainty>560</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>1203</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>47</azimuthMaxHorizontalUncertainty>
+          <confidenceLevel>68</confidenceLevel>
+        </originUncertainty>
+        <quality>
+          <azimuthalGap>152</azimuthalGap>
+          <associatedPhaseCount>9</associatedPhaseCount>
+          <usedPhaseCount>9</usedPhaseCount>
+          <standardError>0.26</standardError>
+          <minimumDistance>0.06655</minimumDistance>
+          <maximumDistance>0.33005</maximumDistance>
+          <associatedStationCount>5</associatedStationCount>
+          <usedStationCount>5</usedStationCount>
+        </quality>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=1</methodID>
+        <earthModelID>smi:webservices.ingv.it/fdsnws/event/1/query?earthModelId=1</earthModelID>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>SURVEY-INGV</author>
+          <version>100</version>
+          <creationTime>2023-04-19T15:00:09</creationTime>
+        </creationInfo>
+      </origin>
+      <magnitude publicID="smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=125131441">
+        <stationCount>8</stationCount>
+        <originID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116522181</originID>
+        <type>ML</type>
+        <mag>
+          <value>0.9</value>
+          <uncertainty>0.2</uncertainty>
+        </mag>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=1</methodID>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>Sala Sismica INGV-Roma</author>
+          <creationTime>2023-04-19T15:00:09</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="smi:webservices.ingv.it/fdsnws/event/1/query?eventId=34819311">
+      <type>earthquake</type>
+      <description>
+        <type>region name</type>
+        <text>Ryukyu Islands, Japan [Sea: Japan]</text>
+      </description>
+      <preferredMagnitudeID>smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=125426801</preferredMagnitudeID>
+      <preferredOriginID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116792731</preferredOriginID>
+      <creationInfo>
+        <agencyID>INGV</agencyID>
+        <author>SURVEY-INGV</author>
+        <creationTime>2023-04-27T08:02:05</creationTime>
+        <ingv:id_locator>0</ingv:id_locator>
+      </creationInfo>
+      <origin publicID="smi:webservices.ingv.it/fdsnws/event/1/query?originId=116792731">
+        <evaluationMode>manual</evaluationMode>
+        <type>hypocenter</type>
+        <time>
+          <value>2023-04-27T07:43:40.000000</value>
+          <uncertainty>0</uncertainty>
+        </time>
+        <latitude>
+          <value>26</value>
+        </latitude>
+        <longitude>
+          <value>128.6</value>
+        </longitude>
+        <depth>
+          <value>10000</value>
+          <uncertainty>0</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <quality>
+          <associatedPhaseCount>1</associatedPhaseCount>
+          <usedPhaseCount>1</usedPhaseCount>
+          <associatedStationCount>0</associatedStationCount>
+          <usedStationCount>0</usedStationCount>
+        </quality>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=11</methodID>
+        <earthModelID>smi:webservices.ingv.it/fdsnws/event/1/query?earthModelId=51</earthModelID>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>SURVEY-INGV</author>
+          <version>200</version>
+          <creationTime>2023-04-27T08:02:05</creationTime>
+        </creationInfo>
+      </origin>
+      <magnitude publicID="smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=125426801">
+        <originID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116792731</originID>
+        <type>Mwp</type>
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.0</uncertainty>
+        </mag>
+        <methodID>smi:webservices.ingv.it/fdsnws/event/1/query?methodId=11</methodID>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>Sala Sismica INGV-Roma</author>
+          <creationTime>2023-04-27T08:02:05</creationTime>
+        </creationInfo>
+      </magnitude>
+      <focalMechanism publicID="smi:webservices.ingv.it/fdsnws/event/1/query?focalMechanismId=20741">
+        <triggeringOriginID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116571761</triggeringOriginID>
+        <nodalPlanes>
+          <nodalPlane1>
+            <strike>
+              <value>172</value>
+            </strike>
+            <dip>
+              <value>83</value>
+            </dip>
+            <rake>
+              <value>-35</value>
+            </rake>
+          </nodalPlane1>
+          <nodalPlane2>
+            <strike>
+              <value>266</value>
+            </strike>
+            <dip>
+              <value>56</value>
+            </dip>
+            <rake>
+              <value>-171</value>
+            </rake>
+          </nodalPlane2>
+        </nodalPlanes>
+        <creationInfo>
+          <agencyID>INGV</agencyID>
+          <author>Laura Scognamiglio (laura.scognamiglio@ingv.it) and Elisa Tinti (elisa.tinti@ingv.it) | Reference: http://terremoti.ingv.it/help#TDMT</author>
+          <creationTime>2023-04-21T16:14:44</creationTime>
+        </creationInfo>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <momentTensor publicID="smi:webservices.ingv.it/fdsnws/event/1/query?momentTensorId=20741">
+          <varianceReduction>52.16</varianceReduction>
+          <doubleCouple>0.9500</doubleCouple>
+          <clvd>0.0500</clvd>
+          <iso>0.0000</iso>
+          <derivedOriginID>smi:webservices.ingv.it/fdsnws/event/1/query?originId=116575751</derivedOriginID>
+          <momentMagnitudeID>smi:webservices.ingv.it/fdsnws/event/1/query?magnitudeId=125188511</momentMagnitudeID>
+          <tensor>
+            <Mrr>
+              <value>-293110000000000</value>
+            </Mrr>
+            <Mtt>
+              <value>548030000000000</value>
+            </Mtt>
+            <Mpp>
+              <value>-254910000000000</value>
+            </Mpp>
+            <Mrt>
+              <value>86489999999999.98</value>
+            </Mrt>
+            <Mrp>
+              <value>1.29904e15</value>
+            </Mrp>
+            <Mtp>
+              <value>-1831519999999999.8</value>
+            </Mtp>
+          </tensor>
+          <scalarMoment>
+            <value>2.29619e15</value>
+          </scalarMoment>
+          <dataUsed>
+            <waveType>combined</waveType>
+          </dataUsed>
+          <creationInfo>
+            <agencyID>INGV</agencyID>
+            <author>Laura Scognamiglio (laura.scognamiglio@ingv.it) and Elisa Tinti (elisa.tinti@ingv.it) | Reference: http://terremoti.ingv.it/help#TDMT</author>
+            <creationTime>2023-04-21T16:14:44</creationTime>
+          </creationInfo>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+  </eventParameters>
+</q:quakeml>

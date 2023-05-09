@@ -7,8 +7,15 @@ SimpleCov.start do
 end
 
 require 'ingv_quake'
+require 'faraday'
+require 'faraday/decode_xml'
+require_relative 'support/faraday_stubs_helper'
+
+FDSNWS_EVENT_QUERY = '/fdsnws/event/1/query'
 
 RSpec.configure do |config|
+  config.include FaradayStubsHelper
+
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
