@@ -35,11 +35,12 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+  spec.required_ruby_version = '>= 2.5.0'
 
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.12'
   spec.add_development_dependency 'rubocop', '>= 1.12.1'
-  spec.add_development_dependency 'simplecov'
+  spec.add_development_dependency 'simplecov' '>= 0.18.0'
   spec.add_development_dependency 'yard', '~> 0.9.34'
 
   spec.add_dependency 'faraday', '~> 2.7', '>= 2.7.4'
