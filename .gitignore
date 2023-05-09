@@ -1,0 +1,23 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/.idea/
+/.idea
+.idea
+# Ignore temporary files and directories
+*.swp
+*.swo
+*~
+.DS_Store
+_tmp
+*.tmp
+*.bak
+
+# Ignore Gemfile.lock
+/Gemfile.lock
+.ruby-version
