@@ -1,7 +1,5 @@
 # Changelog
 
-## [Unreleased](https://github.com/nexxus-vi/ingv_chlg/compare/v0.2.2...HEAD)
-
 ## [v0.2.2](https://github.com/nexxus-vi/ingv_chlg/compare/v0.2.1...v0.2.2) - 10 May 2023
 
 ### Commits
