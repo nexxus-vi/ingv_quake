@@ -104,7 +104,7 @@ events.where(address: 'Roma, Via Condotti', maxradiuskm: 400, maxmag: 6.0)
 <b>Note</b>: the `address` param is an addition of the `ingv_quake` gem, you won't find it in the original api specifications.
 Under the hood the string address is transformed into `lat` and `long` params by the [geocoder](https://github.com/alexreisner/geocoder) gem.
 
-### For a full list of methods and params, take a look at the [documentation](https://rubydoc.info/gems/ingv_quake)
+### For a full list of methods and params, take a look at the [documentation](https://rubydoc.info/gems/ingv_quake/)
 
 ## 🛟 Contributing
 

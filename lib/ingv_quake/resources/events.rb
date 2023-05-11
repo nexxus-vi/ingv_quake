@@ -161,7 +161,7 @@ module IngvQuake
     def address_to_coordinates(params)
       places = Geocoder.search(params[:address])
 
-      raise AddressNotFoundError, 'No results were found for your request. Please check your input' if places.empty?
+      raise AddressNotFoundError, 'No results were found for your request. Please check your address syntax' if places.empty?
 
       lat = places.first.coordinates[0]
       lon = places.first.coordinates[1]
