@@ -1,9 +1,12 @@
 # Changelog
 
-## [v0.3.0](https://github.com/nexxus-vi/temp_test/compare/v0.2.2-changelog...v0.3.0) - 11 May 2023
+## [v0.3.5](https://github.com/nexxus-vi/temp_test/compare/v0.3.1...v0.3.5) - 11 May 2023
+
+## [v0.3.1](https://github.com/nexxus-vi/temp_test/compare/v0.2.2-changelog...v0.3.1) - 11 May 2023
 
 ### Commits
 
+- fix README.md badges [`f34fa59`](https://github.com/nexxus-vi/temp_test/commit/f34fa5965c7158f6e1720284169c87793b191b85)
 - fix release.yml action [`93164d0`](https://github.com/nexxus-vi/temp_test/commit/93164d0d2260c2256779c09a1b1a4e5466d94f1a)
 - move gem dependencies to Gemfile [`3b37b3d`](https://github.com/nexxus-vi/temp_test/commit/3b37b3d1d4b31ad9a7f0179619937223f40682fe)
 - update README.md content [`8bfcb0c`](https://github.com/nexxus-vi/temp_test/commit/8bfcb0c877b6a8efb8296837ca644f97220e82b3)
