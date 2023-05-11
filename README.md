@@ -2,7 +2,7 @@
 
 ### 🫨 Get details about Earthquake events.
 
-[![Tests Status](https://img.shields.io/github/actions/workflow/status/nexxus-vi/ingv_quake/ci.yml?label=rspec)](https://github.com/nexxus-vi/temp_test/actions) [![Gem Version](https://badge.fury.io/rb/ingv_quake.svg)](https://badge.fury.io/rb/ingv_quake) ![Coveralls](https://img.shields.io/coverallsCoverage/github/nexxus-vi/ingv_quake)
+[![Tests Status](https://img.shields.io/github/actions/workflow/status/nexxus-vi/ingv_quake/ci.yml?label=rspec)](https://github.com/nexxus-vi/temp_test/actions) [![Gem Version](https://badge.fury.io/rb/ingv_quake.svg)](https://badge.fury.io/rb/ingv_quake) [![Coverage Status](https://coveralls.io/repos/github/nexxus-vi/ingv_quake/badge.svg?branch=master)](https://coveralls.io/github/nexxus-vi/ingv_quake?branch=master)
 
 ### ⚠ Requirements
 - Ruby 2.5+
