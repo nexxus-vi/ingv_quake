@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = spec.homepage
     spec.metadata["changelog_uri"] = "#{spec.homepage}/blob/master/CHANGELOG.md"
+    spec.metadata["documentation_uri"] = "https://rubydoc.info/gems/ingv_quake/"
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
@@ -35,4 +36,15 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 2.5.0'
+
+  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rspec', '~> 3.12'
+  spec.add_development_dependency 'rubocop', '>= 1.12.1'
+  spec.add_development_dependency 'simplecov', '~> 0.21.2'
+  spec.add_development_dependency 'yard', '~> 0.9.34'
+
+  spec.add_dependency 'faraday', '~> 2.7', '>= 2.7.4'
+  spec.add_dependency 'faraday-decode_xml'
+  spec.add_dependency 'geocoder', '~> 1.8'
+
 end
