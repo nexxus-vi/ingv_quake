@@ -3,7 +3,7 @@
 ### 🫨 Get details about Earthquake events.
 [![Gem](https://img.shields.io/gem/v/ingv_quake?color=blue&label=gem%20version&logo=rubygems)](https://rubygems.org/gems/ingv_quake)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/nexxus-vi/ingv_quake/ci.yml?label=rspec&logo=github)](https://github.com/nexxus-vi/ingv_quake/actions/workflows/ci.yml)
-[![Coverage Status](https://coveralls.io/repos/github/nexxus-vi/ingv_quake/badge.svg?branch=master)](https://coveralls.io/github/nexxus-vi/ingv_quake?branch=master)
+[![Coveralls](https://img.shields.io/coverallsCoverage/github/nexxus-vi/ingv_quake?logo=coveralls)](https://coveralls.io/github/nexxus-vi/ingv_quake?branch=master)
 
 ### ⚠ Requirements
 - Ruby 2.5+
@@ -25,6 +25,8 @@ Or install it yourself as:
     $ gem install ingv_quake
 
 ## 📝 Usage
+
+This gem is a wrapper around the `fdsnws-event` api provided by the [INGV](https://webservices.ingv.it/swagger-ui/dist/?url=https://ingv.github.io/openapi/fdsnws/event/0.0.1/event.yaml#) with some additions to improve the inspection of events and their data.
 
 - #### Initialize the Client
 
@@ -106,7 +108,7 @@ Under the hood the string address is transformed into `lat` and `long` params by
 
 ## 🛟 Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ingv_quake. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/nexxus-vi/ingv_quake/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## 📃 License
 
@@ -114,4 +116,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## ☣️ Code of Conduct
 
-Everyone interacting in the IngvQuake project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/ingv_quake/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the IngvQuake project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/nexxus-vi/ingv_quake/blob/master/CODE_OF_CONDUCT.md).
