@@ -1,6 +1,26 @@
 # Changelog
 
-## [v0.3.5](https://github.com/nexxus-vi/temp_test/compare/v0.3.1...v0.3.5) - 11 May 2023
+## [v0.3.7](https://github.com/nexxus-vi/temp_test/compare/v0.3.6...v0.3.7) - 11 May 2023
+
+### Commits
+
+- yank old gem versions on rubygems.org [`5773b7a`](https://github.com/nexxus-vi/temp_test/commit/5773b7ab1af59d242ff97c4a9931b3dbd49d6c6f)
+- fix badges [`0c14739`](https://github.com/nexxus-vi/temp_test/commit/0c14739fc250557d2d354bd8b95a1dfc1d93ac8c)
+
+## [v0.3.6](https://github.com/nexxus-vi/temp_test/compare/v0.3.5...v0.3.6) - 11 May 2023
+
+### Commits
+
+- general readme fix [`7599e64`](https://github.com/nexxus-vi/temp_test/commit/7599e642c9a02409575eb89f26636ee0ba2ea60d)
+- trigger action [`7056229`](https://github.com/nexxus-vi/temp_test/commit/70562295ee651ac2891887b7101f887ce44b8c93)
+
+## [v0.3.5](https://github.com/nexxus-vi/temp_test/compare/v0.3.5-action...v0.3.5) - 11 May 2023
+
+## [v0.3.5-action](https://github.com/nexxus-vi/temp_test/compare/v0.3.1...v0.3.5-action) - 11 May 2023
+
+### Commits
+
+- trigger action [`7056229`](https://github.com/nexxus-vi/temp_test/commit/70562295ee651ac2891887b7101f887ce44b8c93)
 
 ## [v0.3.1](https://github.com/nexxus-vi/temp_test/compare/v0.2.2-changelog...v0.3.1) - 11 May 2023
 
