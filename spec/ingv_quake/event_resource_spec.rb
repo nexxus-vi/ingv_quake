@@ -103,14 +103,21 @@ module IngvQuake
       let(:client) { Client.new(adapter: :test, stubs: stubs) }
 
       it 'stubs the response with the contents of the text file' do
-        events = client.get_events.within_last_day(limit: 2, format: 'text')
+        events = client.get_events.within_last_day(limit: 3, format: 'text')
+        first_event = events.first
+        last_event = events.last
 
-        expect(2).to eq(events.size)
-        expect(events.first).to be_a(BasicInfoEvent)
+        expect(3).to eq(events.size)
+        expect(first_event).to be_a(BasicInfoEvent)
         expect('34726341').to eq(events.first.event_id)
         expect('0.9').to eq(events.first.magnitude)
         expect('5 km NW Bagno di Romagna (FC)').to eq(events.first.location)
-        expect(events.first.catalog).to be_empty
+        expect(first_event.catalog).to be_empty
+        expect(first_event.intensity_map).to be_nil
+
+        expect(last_event.intensity_map).not_to be(nil)
+        expect(last_event.pga_map).not_to be(nil)
+        expect(last_event.pgv_map).not_to be(nil)
       end
     end
 
@@ -190,11 +197,14 @@ module IngvQuake
         expect('Sala Sismica INGV-Roma').to eq(last_event.magnitude.creation_info.author)
         expect('2023-04-27T08:02:05').to eq(last_event.magnitude.creation_info.creation_time)
 
-        #origin.origin_uncertainty
+        # origin.origin_uncertainty
         expect(nil).to eq(last_event.origin.origin_uncertainty)
         expect(nil).to eq(last_event.origin.origin_uncertainty&.preferred_description)
         expect(nil).to eq(last_event.origin.origin_uncertainty&.horizontal_uncertainty)
         expect(nil).to eq(last_event.origin.origin_uncertainty&.min_horizontal_uncertainty)
+
+        # shake_map
+        expect(last_event.shake_map).not_to be(nil)
       end
     end
 

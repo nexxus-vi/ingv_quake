@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Easy-to-use interface for querying the INGV Earthquake APIs and get event details'
   spec.description   = <<-DESC
-                          The ingv_quake gem is a powerful and flexible Ruby library designed to interact with the INGV Earthquake APIs.
+                          ingv_quake is a powerful and flexible Ruby gem designed to interact with the INGV Earthquake APIs.
                           It provides an easy-to-use interface for querying earthquake data, allowing developers to fetch events with specific filters and helper methods.
                           With ingv_quake, you can effortlessly obtain earthquake data and simplify the process of retrieving a specific earthquake information.
   DESC
@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.5.0'
+  spec.required_ruby_version = '>= 2.6.0'
 
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.12'

@@ -21,7 +21,32 @@ module IngvQuake
       events = response.dig('quakeml', 'eventParameters', 'event') || []
       events = [events] if events.is_a? Hash
 
-      events.map { |data| FullInfoEvent.new(data) }
+      events.map { |data| create_full_info_event(data) }
+    end
+
+    private
+
+    def create_full_info_event(data)
+      magnitude = data.dig('magnitude', 'mag', 'value').to_f
+
+      if magnitude >= 3.0
+        event_id = data['publicID']
+        kinds = %w[intensity pga pgv]
+        intensity_map, pga_map, pgv_map = generate_urls(event_id, kinds)
+
+        shake_map = {
+          intensity_map: intensity_map,
+          pga_map: pga_map,
+          pgv_map: pgv_map
+        }.transform_keys(&:to_s)
+      end
+
+      FullInfoEvent.new(data: data, shake_map: shake_map)
+    end
+
+    def generate_urls(event_id, kinds)
+      url_prefix = "http://shakemap.rm.ingv.it/shake4/data/#{event_id}/current/products/"
+      kinds.map { |kind| "#{url_prefix}#{kind}" }
     end
   end
 end

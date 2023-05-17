@@ -24,14 +24,17 @@ module IngvQuake
   #   'plane crash', 'train crash', 'boat crash', 'other event', 'atmospheric event', 'sonic boom', 'sonic blast',
   #   'acoustic noise', 'thunder', 'avalanche', 'snow avalanche', 'debris avalanche', 'hydroacoustic event',
   #   'ice quake', 'slide', 'landslide', 'rockslide', 'meteorite', 'volcanic eruption'</b>.
+  # @attr_reader shake_map [ShakeMap] ShakeMap attributes are images that provides near-time maps of ground shaking
+  #   for Magnitude >= 3.0 earthquakes in Italy and neighbouring areas. <b>This is a custom attribute.<b>
   class FullInfoEvent
     attr_reader :creation_info, :focal_mechanism, :location, :location_description_type, :magnitude, :origin,
-                :preferred_focal_mechanism_id, :preferred_magnitude_id, :preferred_origin_id, :public_id, :type
+                :preferred_focal_mechanism_id, :preferred_magnitude_id, :preferred_origin_id, :public_id, :type,
+                :shake_map
 
     # Initializes a new FullInfoEvent instance with the provided data.
     #
     # @param data [Hash] A hash containing detailed information about an event.
-    def initialize(data)
+    def initialize(data:, shake_map: nil)
       @creation_info = data.fetch('creationInfo', nil)&.then { |creation_info_data| CreationInfo.new(creation_info_data) }
       @focal_mechanism = data.fetch('focalMechanism', nil)&.then { |focal_mechanism_data| FocalMechanism.new(focal_mechanism_data) }
       @location = data.dig('description', 'text')
@@ -43,6 +46,7 @@ module IngvQuake
       @preferred_origin_id = data.fetch('preferredOriginID', nil)
       @public_id = data.fetch('publicID', nil)
       @type = data.fetch('type', nil)
+      @shake_map = shake_map&.then { |shake_map_data| ShakeMap.new(shake_map_data) }
     end
   end
 end

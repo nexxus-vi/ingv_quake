@@ -1,3 +1,4 @@
 #EventID|Time|Latitude|Longitude|Depth/Km|Author|Catalog|Contributor|ContributorID|MagType|Magnitude|MagAuthor|EventLocationName|EventType
 34726341|2023-04-19T14:50:48.640000|43.8972|11.9382|14.1|SURVEY-INGV||||ML|0.9|--|5 km NW Bagno di Romagna (FC)|earthquake
 34726001|2023-04-19T14:21:13.180000|43.1498|12.8772|22.1|SURVEY-INGV||||ML|1.1|--|6 km W Sefro (MC)|earthquake
+34978991|2023-05-14T08:11:58.582000|33.4055|139.526|19.5|SURVEY-INGV-A||||Mwp|5.7|--|Southeast of Honshu, Japan [Sea: Japan]|earthquake

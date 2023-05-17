@@ -33,4 +33,5 @@ module IngvQuake
   autoload :Origin, 'ingv_quake/models/origin'
   autoload :OriginUncertainty, 'ingv_quake/models/origin_uncertainty'
   autoload :Quality, 'ingv_quake/models/quality'
+  autoload :ShakeMap, 'ingv_quake/models/shake_map'
 end

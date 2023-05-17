@@ -47,8 +47,15 @@ module IngvQuake
   #   @return [String] The location of the event.
   # @!attribute type
   #   @return [String] The type of the event.
+  # @!attribute intensity_map
+  #   @return [String] The intensity map of the event. <b>This is a custom attribute.<b>
+  # @!attribute pga_map
+  #   @return [String] The pga map of the event. <b>This is a custom attribute.<b>
+  # @!attribute pgv_map
+  #   @return [String] The pgv map of the event. <b>This is a custom attribute.<b>
   BasicInfoEvent = Struct.new(
     :event_id, :time, :latitude, :longitude, :depth_km, :author, :catalog, :contributor,
-    :contributor_id, :mag_type, :magnitude, :mag_author, :location, :type
+    :contributor_id, :mag_type, :magnitude, :mag_author, :location, :type, :intensity_map, :pga_map, :pgv_map,
+    keyword_init: true
   )
 end
