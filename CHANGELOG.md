@@ -1,78 +1,35 @@
 # Changelog
 
-## [v0.3.8](https://github.com/nexxus-vi/ingv_quake/compare/v0.3.7...v0.3.8) - 11 May 2023
+## v0.4.0 - 17 May 2023
 
 ### Commits
 
-- add changelog_uri for rubygems - move gem dependencies to gemspec [`4a9a74e`](https://github.com/nexxus-vi/ingv_quake/commit/4a9a74e6af9f2b0fcc77fe0c9213c15396e685f1)
-- improve geocoding error message [`0185630`](https://github.com/nexxus-vi/ingv_quake/commit/0185630cc446a956949b1f99df998608408c4047)
-
-## [v0.3.7](https://github.com/nexxus-vi/ingv_quake/compare/v0.3.6...v0.3.7) - 11 May 2023
-
-### Commits
-
-- yank old gem versions on rubygems.org [`d907f8c`](https://github.com/nexxus-vi/ingv_quake/commit/d907f8c59b80ee73d822d9f29ef2093685e69186)
-- fix badges [`0c14739`](https://github.com/nexxus-vi/ingv_quake/commit/0c14739fc250557d2d354bd8b95a1dfc1d93ac8c)
-
-## [v0.3.6](https://github.com/nexxus-vi/ingv_quake/compare/v0.3.5...v0.3.6) - 11 May 2023
-
-### Commits
-
-- general readme fix [`7599e64`](https://github.com/nexxus-vi/ingv_quake/commit/7599e642c9a02409575eb89f26636ee0ba2ea60d)
-- trigger action [`7056229`](https://github.com/nexxus-vi/ingv_quake/commit/70562295ee651ac2891887b7101f887ce44b8c93)
-
-## [v0.3.5](https://github.com/nexxus-vi/ingv_quake/compare/v0.3.5-action...v0.3.5) - 11 May 2023
-
-## [v0.3.5-action](https://github.com/nexxus-vi/ingv_quake/compare/v0.3.1...v0.3.5-action) - 11 May 2023
-
-### Commits
-
-- trigger action [`7056229`](https://github.com/nexxus-vi/ingv_quake/commit/70562295ee651ac2891887b7101f887ce44b8c93)
-
-## [v0.3.1](https://github.com/nexxus-vi/ingv_quake/compare/v0.2.2-changelog...v0.3.1) - 11 May 2023
-
-### Commits
-
-- fix README.md badges [`f34fa59`](https://github.com/nexxus-vi/ingv_quake/commit/f34fa5965c7158f6e1720284169c87793b191b85)
-- fix release.yml action [`93164d0`](https://github.com/nexxus-vi/ingv_quake/commit/93164d0d2260c2256779c09a1b1a4e5466d94f1a)
-- move gem dependencies to Gemfile [`3b37b3d`](https://github.com/nexxus-vi/ingv_quake/commit/3b37b3d1d4b31ad9a7f0179619937223f40682fe)
-- update README.md content [`8bfcb0c`](https://github.com/nexxus-vi/ingv_quake/commit/8bfcb0c877b6a8efb8296837ca644f97220e82b3)
-
-## [v0.2.2-changelog](https://github.com/nexxus-vi/ingv_quake/compare/v0.2.1...v0.2.2-changelog) - 10 May 2023
-
-### Commits
-
-- changelog without unreleased section [`7e98621`](https://github.com/nexxus-vi/ingv_quake/commit/7e986214e730746f4d15d047350a8e52110b40bc)
-- update README.md [`99ad70a`](https://github.com/nexxus-vi/ingv_quake/commit/99ad70aff2af7d54898a75b6a3c395e930d3251e)
-
-## [v0.2.1](https://github.com/nexxus-vi/ingv_quake/compare/v0.2.0...v0.2.1) - 9 May 2023
-
-### Commits
-
-- bump version [`560f6f1`](https://github.com/nexxus-vi/ingv_quake/commit/560f6f156703444817a429b9ae2cbbb2b4d2ab95)
-- fix autoloads [`bac3fd2`](https://github.com/nexxus-vi/ingv_quake/commit/bac3fd2ff55cdc50d533bc6b35b963c698e547ab)
-
-## [v0.2.0](https://github.com/nexxus-vi/ingv_quake/compare/v0.1.8...v0.2.0) - 9 May 2023
-
-### Commits
-
-- bump version [`93c4f6a`](https://github.com/nexxus-vi/ingv_quake/commit/93c4f6a1a5d0208b52d7ced5f7c211522dd07871)
-- add minimum required ruby version to gemspec [`e5c554f`](https://github.com/nexxus-vi/ingv_quake/commit/e5c554f940028cd0472a9eaf468d37aa83c14e28)
-- add github action for CI [`4c7683a`](https://github.com/nexxus-vi/ingv_quake/commit/4c7683ae0dacd7c452a5ec736f0e382e96d2506f)
-- add full rspec test [`ff0444c`](https://github.com/nexxus-vi/ingv_quake/commit/ff0444ce393562ed6da783416cc38f5b013197a0)
-
-## [v0.1.8](https://github.com/nexxus-vi/ingv_quake/compare/v0.0.1...v0.1.8) - 9 May 2023
-
-### Commits
-
-- bump version [`6cef417`](https://github.com/nexxus-vi/ingv_quake/commit/6cef4172404149d7fcaa1afc8127a2fae0deac98)
-- add event resource [`72059e9`](https://github.com/nexxus-vi/ingv_quake/commit/72059e9316af5890e7d549b0322d0bc1c4fc7568)
+- optimize README.md [`b1bcd0d`](https://github.com/nexxus-vi/ingv_quake/commit/b1bcd0da85f059540c1be266a4f1880fb1eade0a)
+- add earthquake map links [`5f70d8b`](https://github.com/nexxus-vi/ingv_quake/commit/5f70d8b3707bea1e9a3e8a10a8fb7b326a155cf8)
+- restore changelog style [skip-ci] [`649e3c9`](https://github.com/nexxus-vi/ingv_quake/commit/649e3c96ae5f506e6edb784459397c9157854087)
+- add changelog_uri for rubygems - move gem dependencies to gemspec [`29152ef`](https://github.com/nexxus-vi/ingv_quake/commit/29152ef98a4b418f645e2502868b5a64f8d38e29)
+- improve geocoding error message [`3c186ff`](https://github.com/nexxus-vi/ingv_quake/commit/3c186ff04be975246773ce163cfe18ec13b86e2c)
+- improve readme [skip-ci] [`5bd871b`](https://github.com/nexxus-vi/ingv_quake/commit/5bd871b7142cbc161cadd9845f56a074780af8cf)
+- update badges - skip-ci [`00ef2de`](https://github.com/nexxus-vi/ingv_quake/commit/00ef2dea607e4822921b0a9e29d17d0cff3dda4e)
+- yank old gem versions on rubygems.org [`1f2bccd`](https://github.com/nexxus-vi/ingv_quake/commit/1f2bccd07d916395870dc975043f1da6e818f75e)
+- fix badges [`519ce21`](https://github.com/nexxus-vi/ingv_quake/commit/519ce21ca95f12bc6f9f2432e53c480f71f063fb)
+- general readme fix [`2d4961a`](https://github.com/nexxus-vi/ingv_quake/commit/2d4961a16ea3b05adb2d5b28ffc5524f52851c29)
+- trigger action [`2207972`](https://github.com/nexxus-vi/ingv_quake/commit/22079727ec94f3672485485e90f33612ac41bcfa)
+- fix README.md badges [`4b5f7dd`](https://github.com/nexxus-vi/ingv_quake/commit/4b5f7ddabb38602465c45158191b3f3d19e250fd)
+- fix release.yml action [`f7460b8`](https://github.com/nexxus-vi/ingv_quake/commit/f7460b86995e03a34d44188181e953ff1cb056c9)
+- move gem dependencies to Gemfile [`8fea807`](https://github.com/nexxus-vi/ingv_quake/commit/8fea807e9ac70bfa24bb22a14832fa2c03d9498c)
+- update README.md content [`7a86f22`](https://github.com/nexxus-vi/ingv_quake/commit/7a86f2255d6c80ad737c1b591cccd8b37195ff2c)
+- changelog without unreleased section [`093bae4`](https://github.com/nexxus-vi/ingv_quake/commit/093bae4f99db003a0c43e1c0efeb382ae039535e)
+- update README.md [`c33e9b9`](https://github.com/nexxus-vi/ingv_quake/commit/c33e9b97b2317b8ab1a4467e18c425354635fc36)
+- bump version [`f955ebc`](https://github.com/nexxus-vi/ingv_quake/commit/f955ebc14e53cd36ad73329d0a8623846f5eba38)
+- fix autoloads [`d1440c4`](https://github.com/nexxus-vi/ingv_quake/commit/d1440c44c664a38e0a491a7be71064aa4ef52fdd)
+- bump version [`3b719f4`](https://github.com/nexxus-vi/ingv_quake/commit/3b719f4e6abc16e41f1fe7abd021f27d84f43af3)
+- add minimum required ruby version to gemspec [`908895a`](https://github.com/nexxus-vi/ingv_quake/commit/908895a4f1502c7a6720e1703447d4f434b63a45)
+- add github action for CI [`bba760b`](https://github.com/nexxus-vi/ingv_quake/commit/bba760b094cc441ed6a0fed9deed487a4e0ca083)
+- add full rspec test [`f8616de`](https://github.com/nexxus-vi/ingv_quake/commit/f8616de5d5acdc99452a6326a40017aafc3c5fb8)
+- bump version [`235099a`](https://github.com/nexxus-vi/ingv_quake/commit/235099a04814a261746693b8041d09f8754cea38)
+- add event resource [`2459d35`](https://github.com/nexxus-vi/ingv_quake/commit/2459d359c3a173170149b7327d25f5fa619672e5)
 - add client to perform http calls;
-add basic resource and service object to parse response and map it to appropriate event type [`65bd845`](https://github.com/nexxus-vi/ingv_quake/commit/65bd845e9d4d60da583e6d58d3f358cef2e13dfd)
-- add event models [`6cafb42`](https://github.com/nexxus-vi/ingv_quake/commit/6cafb4206d1d761b0d0ac715462957f98a296357)
-
-## v0.0.1 - 9 May 2023
-
-### Commits
-
-- initial commit [`88becb7`](https://github.com/nexxus-vi/ingv_quake/commit/88becb7f012bd58d9908b71397dd12ae5aa53051)
+add basic resource and service object to parse response and map it to appropriate event type [`91bbd16`](https://github.com/nexxus-vi/ingv_quake/commit/91bbd16676b0fbc8feec69ccb44dd5d2b93ae72d)
+- add event models [`0288cbd`](https://github.com/nexxus-vi/ingv_quake/commit/0288cbd235eac8dae6c5bc352d89e74a32a8e0fa)
+- initial commit [`e979779`](https://github.com/nexxus-vi/ingv_quake/commit/e979779edc70651bf65c1cbd10a1e5d39963ac27)
